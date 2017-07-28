@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+/* home */
+
+.home { 
+    width:100%;
+    height: 600px;
+    background-image: url('../images/image-01.jpg');
+    background-size: cover
+}
+
+.home .header ul {
+    list-style: none ;
+    text-align: center
+}
+
+.home .header ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.home .header ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none
+}
+
+.home .best {
+    width:400px;
+    height: 200px;
+    margin: 160px auto;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.home .best p {
+    font-size: 25px;
+    color: #fff
+}
+
+.home .best .one {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 2.5
+}
+
+.home .best .two {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+/* home scroll nav */ 
+
+.scroll_nav {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 9999
+}
+
+/* about */
+
+.about {
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/image-02.jpg');
+    background-size: cover;
+    
+}
+
+.about .about_us , .service .service_us {
+    width: 35%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.about .about_us h2 , .service .service_us h2{
+    margin: 0;
+    color: #ffff73;
+    padding-top: 15%;
+    padding-bottom: 8%;
+}
+
+.about .about_us p , .service .service_us p {
+    color: #EEE;
+    padding-top: 3%;
+    line-height: 2.5
+}
+
+
+/* Service */ 
+.service {
+    width: 100%;
+    height: 600px;
+    background: url('../images/image-03.jpg');
+    background-size: cover;
+}
+
+.service .service_us {
+    float: left;
+    margin-left: 5%;
+}
+
+.service .service_us h2 {
+    padding-bottom: 2%;
+    padding-top: 10%;
+}
+
+.service .service_us p {
+    line-height: 1.9
+}
+
+/* testimoial */
+
+.testimonials {
+    width: 100%;
+    height: 550px;
+    background: url('../images/image-04.jpg');
+    background-size: cover;
+}
+
+.testimonials h2 {
+    margin: 0;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.testimonials .test {
+    width: 26%;
+    margin-top: 5%;
+    background: rgba(0,0,0,0.5);
+    height: 250px;
+    float: left;
+    color: #fff;
+    margin-left: 4.5%;
+    text-align: center;
+    padding: 10px;
+}
+
+.testimonials .test i {
+    padding-top: 5%;
+}
+
+.testimonials .test p {
+    line-height: 1.8;
+    text-align: left
+}
+
+/* contact */
+.contact {
+    width: 100%;
+    height: 500px;
+    background: url('../images/image-05.jpg');
+    background-size: cover;
+}
+
+.contact .contact_us {
+    width: 35%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.contact .contact_us h2{
+    margin: 0;
+    color: #ffff73;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.contact .contact_us form {
+    width: 80%; 
+    margin: auto;
+}
+
+.contact .contact_us form input {
+    display: block;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border: 0;
+    height: 30px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: 0
+}
+
+.contact .contact_us form textarea
+{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border: 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: 0
+}
+
+.contact .contact_us form input[type="submit"] {
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
